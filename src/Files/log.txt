@@ -1,0 +1,92 @@
+Logger[2023-11-02 15:08:37]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:38]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:39]: Producer Added! Number of Producers: 2
+This Producer's Time Interval: 1073
+Logger[2023-11-02 15:08:39]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:40]: Producer Added! Number of Producers: 3
+This Producer's Time Interval: 2083
+Logger[2023-11-02 15:08:40]: Producer Added! Number of Producers: 4
+This Producer's Time Interval: 2449
+Logger[2023-11-02 15:08:40]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:41]: Producer Added! Number of Producers: 5
+This Producer's Time Interval: 1092
+Logger[2023-11-02 15:08:41]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:42]: Producer Added! Number of Producers: 6
+This Producer's Time Interval: 4177
+Logger[2023-11-02 15:08:42]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:43]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:44]: Producer Added! Number of Producers: 7
+This Producer's Time Interval: 3623
+Logger[2023-11-02 15:08:44]: Producer Added! Number of Producers: 8
+This Producer's Time Interval: 8290
+Logger[2023-11-02 15:08:44]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:44]: Producer Added! Number of Producers: 9
+This Producer's Time Interval: 1104
+Logger[2023-11-02 15:08:45]: Producer Added! Number of Producers: 10
+This Producer's Time Interval: 3864
+Logger[2023-11-02 15:08:45]: Producer Added! Number of Producers: 11
+This Producer's Time Interval: 8740
+Logger[2023-11-02 15:08:45]: Producer Added! Number of Producers: 12
+This Producer's Time Interval: 6400
+Logger[2023-11-02 15:08:45]: Producer Added! Number of Producers: 13
+This Producer's Time Interval: 8233
+Logger[2023-11-02 15:08:45]: Producer Added! Number of Producers: 14
+This Producer's Time Interval: 7469
+Logger[2023-11-02 15:08:45]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:45]: Producer Added! Number of Producers: 15
+This Producer's Time Interval: 9612
+Logger[2023-11-02 15:08:46]: Producer Added! Number of Producers: 16
+This Producer's Time Interval: 8708
+Logger[2023-11-02 15:08:46]: Producer Added! Number of Producers: 17
+This Producer's Time Interval: 5636
+Logger[2023-11-02 15:08:46]: Producer Added! Number of Producers: 18
+This Producer's Time Interval: 4932
+Logger[2023-11-02 15:08:46]: Producer Added! Number of Producers: 19
+This Producer's Time Interval: 9733
+Logger[2023-11-02 15:08:46]: Producer Added! Number of Producers: 20
+This Producer's Time Interval: 7075
+Logger[2023-11-02 15:08:46]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:46]: Number of items in stock: 0
+Logger[2023-11-02 15:08:46]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:47]: Producer Added! Number of Producers: 21
+This Producer's Time Interval: 2258
+Logger[2023-11-02 15:08:47]: Producer Added! Number of Producers: 22
+This Producer's Time Interval: 6575
+Logger[2023-11-02 15:08:47]: Producer Added! Number of Producers: 23
+This Producer's Time Interval: 1164
+Logger[2023-11-02 15:08:47]: Producer Added! Number of Producers: 24
+This Producer's Time Interval: 5897
+Logger[2023-11-02 15:08:47]: Producer Added! Number of Producers: 25
+This Producer's Time Interval: 5500
+Logger[2023-11-02 15:08:47]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:47]: Producer Added! Number of Producers: 26
+This Producer's Time Interval: 7860
+Logger[2023-11-02 15:08:48]: Producer Added! Number of Producers: 27
+This Producer's Time Interval: 9613
+Logger[2023-11-02 15:08:48]: Producer Added! Number of Producers: 28
+This Producer's Time Interval: 6210
+Logger[2023-11-02 15:08:48]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:49]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:50]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:51]: LOW PRODUCTS!
+Logger[2023-11-02 15:08:56]: Number of items in stock: 31
+Logger[2023-11-02 15:09:06]: Number of items in stock: 66
+Logger[2023-11-02 15:09:13]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:14]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:15]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:16]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:16]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:16]: Number of items in stock: 108
+Logger[2023-11-02 15:09:17]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:18]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:19]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:20]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:21]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:22]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:23]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:24]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:25]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:26]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:26]: MANY PRODUCTS!
+Logger[2023-11-02 15:09:26]: Number of items in stock: 145
+Logger[2023-11-02 15:09:27]: MANY PRODUCTS!

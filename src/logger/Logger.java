@@ -9,26 +9,33 @@ import java.util.Date;
 public class Logger {
     private static Logger instance;
     private PrintWriter writer;
+    
+    // Define a class-level constant for the default log file path
+    private static final String DEFAULT_LOG_FILE_PATH = "src/Files/log.txt";
 
-    private Logger() {
+    private Logger(String logFilePath) {
         try {
-            writer = new PrintWriter(new FileWriter("log.txt"));
+            writer = new PrintWriter(new FileWriter(logFilePath));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     public static Logger getInstance() {
+        return getInstance(DEFAULT_LOG_FILE_PATH);
+    }
+
+    public static Logger getInstance(String logFilePath) {
         if (instance == null) {
-            instance = new Logger();
+            instance = new Logger(logFilePath);
         }
         return instance;
     }
 
     public void log(String message) {
-    		String logEntry = "[" + getCurrentTimestamp() + "]: " + message;
-            writer.println("Logger" + logEntry);
-            writer.flush();
+        String logEntry = "[" + getCurrentTimestamp() + "]: " + message;
+        writer.println("Logger" + logEntry);
+        writer.flush();
     }
     
     private String getCurrentTimestamp() {
@@ -42,3 +49,5 @@ public class Logger {
         }
     }
 }
+
+
