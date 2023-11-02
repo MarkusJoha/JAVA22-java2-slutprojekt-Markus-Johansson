@@ -16,7 +16,7 @@ public class ProductionView {
     private Controller controller;
 	private JLabel producerLabel;
     private JTextArea textArea;
-    Logger logger;
+    private Logger logger;
 
     public ProductionView(Controller controller) {
     	this.controller = controller;
@@ -26,35 +26,56 @@ public class ProductionView {
     	logger = Logger.getInstance();
     }
     
-    public void createSwingLayout() {  
+    public void createSwingLayout() {
         frame = new JFrame("Factory Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLayout(new BorderLayout());
-        
-        JPanel buttonPanel = new JPanel();
+        frame.setSize(800, 400);
+
+        JPanel mainPanel = new JPanel(new GridBagLayout());
+
+        progressBar = new JProgressBar(0, 100);
+        progressBar.setStringPainted(true);
+
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.insets = new Insets(5, 5, 5, 5);
+
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        mainPanel.add(progressBar, gbc);
+
+        gbc.gridx = 0;
+        gbc.gridy = 1;
+        gbc.fill = GridBagConstraints.HORIZONTAL;
         producerLabel = new JLabel("" + controller.getProducerList());
+        mainPanel.add(producerLabel, gbc);
+
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout(new FlowLayout());
+
         JButton removeProducerButton = new JButton("Remove Producer");
         JButton addProducerButton = new JButton("Add Producer");
-        textArea = new JTextArea(5, 50);
-        textArea.setEditable(false);
-        JButton quitButton = new JButton("Quit");
 
         removeProducerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                	controller.removeProducer();
-                    updateProducerLabel();
-                    logMessage("Producer Removed! Number of Producers: " + controller.getProducerList());
+                controller.removeProducer();
+                updateProducerLabel();
+                logMessage("Producer Removed! Number of Producers: " + controller.getProducerList());
             }
         });
 
         addProducerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            	controller.addProducer();
+                controller.addProducer();
                 updateProducerLabel();
             }
         });
+
+        JButton quitButton = new JButton("Quit");
+        textArea = new JTextArea(5, 50);
+        textArea.setEditable(false);
 
         quitButton.addActionListener(new ActionListener() {
             @Override
@@ -63,18 +84,24 @@ public class ProductionView {
             }
         });
 
-        buttonPanel.add(removeProducerButton);
-        buttonPanel.add(producerLabel);
         buttonPanel.add(addProducerButton);
+        buttonPanel.add(producerLabel);
+        buttonPanel.add(removeProducerButton);
         buttonPanel.add(new JScrollPane(textArea));
         buttonPanel.add(quitButton);
 
-        frame.add(progressBar, BorderLayout.NORTH);
-        frame.add(buttonPanel, BorderLayout.CENTER);
+        gbc.gridx = 0;
+        gbc.gridy = 2;
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        mainPanel.add(buttonPanel, gbc);
 
-        frame.pack();
+        frame.add(mainPanel);
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
+
+
+
 
     public Buffer getBuffer() {
 		return buffer;
