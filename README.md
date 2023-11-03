@@ -13,4 +13,4 @@ Detta är en Java-baserad applikation som simulerar och styr produktionsprocesse
 Vad jag lärt mig genom att utföra detta projektet är hanteringen av trådar inom Java och att skriva och läsa in text från en fil. Detta har varit ett utmanande men roligt projekt.
 
 
-![UML-diagram](slutprojekt.jpg)
+![UML-diagram](Slutprojekt.jpg)
