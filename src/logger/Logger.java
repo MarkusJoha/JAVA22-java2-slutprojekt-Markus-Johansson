@@ -9,8 +9,6 @@ import java.util.Date;
 public class Logger {
     private static Logger instance;
     private PrintWriter writer;
-    
-    // Define a class-level constant for the default log file path
     private static final String DEFAULT_LOG_FILE_PATH = "src/Files/log.txt";
 
     private Logger(String logFilePath) {

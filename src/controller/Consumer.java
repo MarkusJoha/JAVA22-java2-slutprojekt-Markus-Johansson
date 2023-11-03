@@ -4,9 +4,9 @@ import java.util.Random;
 import model.Buffer;
 
 public class Consumer implements Runnable {
-	Random random;
-	Buffer buffer = null;
-	boolean isRunning = true;
+	private Random random;
+	private Buffer buffer = null;
+	private boolean isRunning = true;
 
 	public Consumer(Buffer buffer) {
 		this.buffer = buffer;

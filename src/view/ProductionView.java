@@ -17,7 +17,7 @@ public class ProductionView {
 	private JLabel producerLabel;
     private JTextArea textArea;
     private Logger logger;
-
+    
     public ProductionView(Controller controller) {
     	this.controller = controller;
     	progressBar = new JProgressBar(0, 100);

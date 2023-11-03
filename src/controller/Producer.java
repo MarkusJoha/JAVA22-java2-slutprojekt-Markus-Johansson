@@ -1,14 +1,12 @@
 package controller;
 
-import java.util.Random;
 import model.Buffer;
 import model.Item;
 
 public class Producer implements Runnable {
-	Random random;
-	Buffer buffer = null;
-	boolean isRunning = true;
-	int timeInterval;
+	private Buffer buffer = null;
+	private boolean isRunning = true;
+	private int timeInterval;
 
 	public Producer(Buffer buffer, int timeInterval) {
 		this.buffer = buffer;

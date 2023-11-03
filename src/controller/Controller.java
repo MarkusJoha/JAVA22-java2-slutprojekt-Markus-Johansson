@@ -11,10 +11,10 @@ import model.Buffer;
 import view.ProductionView;
 
 public class Controller {
-	ProductionView prod;
-	LinkedList<Thread> producerList;
-	Random random;
-	Buffer buffer;
+	private ProductionView prod;
+	private LinkedList<Thread> producerList;
+	private Random random;
+	private Buffer buffer;
 
 	public void start() {
 		
